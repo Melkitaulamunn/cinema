@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=u, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sinema</title>
+</head>
+<body>
+    <div class="baslik"><h1>WELCOME TO MAGİC OPEN AIR CINEMA</h1></div>
+    <div class="container">  
+    <div class="screen"></div>
+        <div class="row">
+            <div class="seat "></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <div class="movie-list">
+        <select name="" id="movie">
+            <option disabled>Film Seçiniz</option>
+            <option value="20">Harry Potter</option>
+            <option value="22">Yüzüklerin efendisi</option>
+            <option value="25">Hobbit</option>
+        </select>
+    </div>
+    <ul class="info">
+        <li>
+           <div class="seat selected"></div>
+           <small>Seçili</small>
+        </li>
+        <li>
+           <div class="seat"></div>
+           <small>Boş</small>
+        </li>
+        <li>
+           <div class="seat reserved"></div>
+           <small>Dolu</small>
+        </li>
+    </ul>
+    <p class="text">
+        <span id="count">3</span> adet koltuk için hesaplanan ücret <span id="amount">60tl</span>
+    </p>
+
+    <script src="script.js" > </script>
+</body>
+</html>
